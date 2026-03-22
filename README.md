@@ -66,15 +66,5 @@ The model will generate an image based on the prompt.
 * A cyberpunk samurai in neon Tokyo
 * A dragon flying over snowy mountains
 * A robot walking in a desert sunset
----
 
-## Future Improvements
 
-* Add image editing
-* Improve prompt quality
-
----
-
-## Author
-
-Prashanth
