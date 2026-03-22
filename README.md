@@ -1,81 +1,80 @@
-Text-to-Image Generator using Stable Diffusion XL
+# Text-to-Image Generator (Stable Diffusion XL)
 
-This project demonstrates how to generate images from text prompts using Stable Diffusion XL from Hugging Face.
+This project generates images from text prompts using Stable Diffusion XL.
+It converts simple natural language into high-quality AI images.
 
-The model converts natural language prompts into high-quality AI-generated images using diffusion models.
+## Features
 
-🚀 Features
+* Generate images from text prompts
+* Uses Stable Diffusion XL
+* Built with Hugging Face Diffusers
+* Supports GPU with PyTorch
+* Optional Gradio UI
 
-🧠 Generate images from text prompts
+---
 
-⚡ Uses Stable Diffusion XL
+## Tech Stack
 
-🔗 Integrated with Hugging Face Diffusers
+* Python
+* Diffusers
+* PyTorch
+* Transformers
+* Gradio
 
-🚀 GPU acceleration with PyTorch
+---
 
-🎨 Supports high-quality image generation
+## Project Structure
 
-🌐 Optional Gradio interface for interactive UI
+stable-diffusion-text-to-image-generator/
 
-🛠️ Tech Stack
+* text_to_image.ipynb
+* requirements.txt
+* README.md
 
-Python
+---
 
-Hugging Face Diffusers
-
-Stable Diffusion XL
-
-PyTorch
-
-Transformers
-
-Gradio
-
-📂 Project Structure
-stable-diffusion-text-to-image-generator
-│
-├── text_to_image.ipynb
-├── requirements.txt
-└── README.md
-⚙️ Installation
+## Installation
 
 Clone the repository:
 
 git clone https://github.com/YOUR_USERNAME/stable-diffusion-text-to-image-generator.git
 
-Move to the project folder:
+Go to the folder:
 
 cd stable-diffusion-text-to-image-generator
 
 Install dependencies:
 
 pip install diffusers transformers accelerate safetensors invisible_watermark
-▶️ Usage
 
-Run the notebook in Google Colab or Jupyter Notebook.
+---
+
+## Usage
+
+Run the notebook in Jupyter Notebook or Google Colab.
 
 Example prompt:
 
 "A futuristic city at sunset with flying cars and neon lights"
 
-The model generates a high-quality AI image based on the prompt.
+The model will generate an image based on the prompt.
 
-📸 Example Prompts
+---
 
-Try prompts like:
+## Example Prompts
 
-"A cyberpunk samurai standing in neon Tokyo"
-"A majestic dragon flying over snowy mountains"
-"A futuristic robot walking in a desert sunset"
-📈 Future Improvements
+* A cyberpunk samurai in neon Tokyo
+* A dragon flying over snowy mountains
+* A robot walking in a desert sunset
+---
 
-Add image editing
+## Future Improvements
 
-Add prompt enhancement
+* Add image editing
+* Improve prompt quality
 
-Add image-to-image generation
+---
 
-Build a web UI with Streamlit or Gradio
+## Author
 
-Deploy on Hugging Face Spaces
+Prashanth
